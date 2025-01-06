@@ -34,7 +34,6 @@ jobs:
           name: test-report.html
           path: app/build/reports/tests/testDebugUnitTest/index.html
           
-
   instrumentationTests:
     runs-on: ubuntu-latest
 
