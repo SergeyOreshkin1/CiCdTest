@@ -23,5 +23,6 @@ class GetAchievementsCountUseCase {
         whenever(achievementsRepository.getAchievementsCount()).thenReturn(Result.success(5))
         val expected = useCase.execute(Unit)
         Assert.assertEquals(expected, Result.success(5))
+
     }
 }
